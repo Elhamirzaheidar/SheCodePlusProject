@@ -1,0 +1,54 @@
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 48px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  font-size: 1.7rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #8064e9;
+  padding: 0 0 24px;
+  margin: 0;
+  line-height: 48px;
+}
+span {
+  font-size: 18px;
+  margin: 10px auto;
+  text-align: center;
+  font-family: monospace;
+  line-height: 28px;
+  display: block;
+}
+h3 {
+  line-height: 1px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: monospace;
+}
+button {
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 200ms ease;
+  background-color: #8064e9;
+  color: white;
+  border-radius: 25px;
+  padding: 16px 24px;
+  border: 1px solid #8064e9;
+  display: block;
+  margin: 30px auto;
+  box-shadow: 0 8px 8px gray;
+  cursor: pointer;
+  line-height: 22px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #5e41a7;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+}
