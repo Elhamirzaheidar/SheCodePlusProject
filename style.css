@@ -131,7 +131,7 @@ body {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 60%;
+    width: 50%;
   }
   .btn {
     font-size: 16px;
@@ -158,4 +158,23 @@ body {
     height: 20px;
     width: 60%;
   }
+}
+hr {
+  border: 1px solid #f9f7fe;
+  max-width: 90%;
+}
+
+footer {
+  background-color: pink;
+}
+.footer p {
+  display: block;
+  margin: 30px;
+  padding: 40px 10px;
+  text-align: center;
+  color: #27214266;
+  font-size: 16px;
+}
+.footer a {
+  color: #885df1;
 }
