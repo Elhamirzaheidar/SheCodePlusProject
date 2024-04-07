@@ -14,7 +14,6 @@ body {
 @media (min-width: 450px) {
   .Item {
     padding: 0 20px;
-
     display: inline-block;
     margin: 3% -3%;
   }
@@ -42,7 +41,8 @@ body {
   }
   .btn {
     font-size: 16px;
-    background-color: #885df1;
+    
+    /* background-color: #885df1; */
     color: white;
     font-weight: 700;
     padding: 15px 0;
@@ -708,44 +708,199 @@ hr {
   font-weight: 700;
   line-height: 1.5;
 }
+@media (min-width: 500px) {
+  .Item {
+    padding: 0 15px;
+    display: inline-block;
+    margin: 3% 2.8%;
+  }
+}
+ .logo {
+  padding: 20px;
+  margin-left: 0;
+}
+  .container {
+    width: 95%;
+    background-color: #fff;
+    display: block;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 0 0;
+  }
+
+ 
+  .Opacity {
+    color: #f65282;
+    opacity: 0.6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .Item p {
+    text-align: center;
+    color: #27214266;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .Item img {
+    display: block;
+    margin: 10px auto;
+  }
+
+  /* .container {
+    width: 50%;
+  } */
+  .btn {
+    font-size: 16px;
+    background-color: #885df1;
+    color: white;
+    font-weight: 700;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: none;
+    width: 20%;
+    height: 50px;
+    margin-left: -1%;
+  }
+
+  .firstInput {
+    background-color: #f9f7fe;
+    color: #27214266;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    margin: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    display: inline-block;
+    height: 50px;
+    width: 60%;
+  }
+
+hr {
+  border: 1px solid #f9f7fe;
+  max-width: 90%;
+}
+
+.footer p {
+  display: block;
+  margin-top: -10px;
+  padding: 40px 10px;
+  text-align: center;
+  color: #27214266;
+  font-size: 14px;
+}
+.footer a {
+  color: #885df1;
+}
+.SecondSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.CityDetail h1 {
+  color: #272142;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 20px -90px;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+.CityDetail p {
+  color: #27214266;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 5px;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+.DegreeDetail {
+  padding: 15px 10px;
+}
+.DegreeDetail span {
+  color: #212121;
+  font-size: 80px;
+  line-height: 1;
+  margin-left: 10px;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+
+.DegreeDetail sup {
+  color: #212121;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  line-height: 1;
+  position: relative;
+  top: -10px;
+}
+.DegreeDetail img {
+  padding: 15px 0;
+  aspect-ratio: auto 52 / 52;
+}
+.red {
+  color: #f65282;
+}
+.reds {
+  color: #f65282;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+}
 
 @media (min-width: 600px) {
   .Item {
-    padding: 0 0px;
-
+    padding: 0 10px;
     display: inline-block;
-    margin: 3% 1.5%;
+    margin: 3% 3%;
   }
 }
 @media (min-width: 700px) {
   .Item {
-    padding: 0 5px;
+    padding: 0 10px;
     display: inline-block;
-    margin: 3% 0.2%;
+    margin: 3% 2%;
+  }
+    .container{
+    width: 70%;
+  }
+ 
+}
+@media (min-width: 800px) {
+  .Item {
+    padding: 0 13px;
+    display: inline-block;
+    margin: 3% 2.5%;
+  }
+   .container{
+   
+    width: 70%;
   }
 }
 @media (min-width: 900px) {
   .Item {
-    padding: 0 10px;
-
+   
+    padding: 0 16px;
     display: inline-block;
-    margin: 3% 1.2%;
+    margin: 3% 2.9%;
   }
 }
 @media (min-width: 1000px) {
   .Item {
-    padding: 0 10px;
-
+    padding: 0 20px;
     display: inline-block;
-    margin: 3% 2.2%;
+    margin: 3%;
   }
 }
 @media (min-width: 1100px) {
   .Item {
-    padding: 0 10px;
-
+    padding: 0 25px;
     display: inline-block;
-    margin: 3% 2.9%;
+    margin: 3% ;
   }
 }
 @media (min-width: 1200px) {
@@ -768,10 +923,9 @@ hr {
     display: block;
     margin: 10px auto;
   }
-  /* .Deg span{margin-right: 60px;} */
+
   .Item {
     padding: 0 10px;
-
     display: inline-block;
     margin: 3% 3.5%;
   }
@@ -871,7 +1025,6 @@ hr {
 }
 .reds {
   color: #f65282;
-
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -881,7 +1034,6 @@ hr {
 @media (min-width: 1300px) {
   .Item {
     padding: 0 10px;
-
     display: inline-block;
     margin: 3% 4%;
   }
@@ -889,7 +1041,6 @@ hr {
 @media (min-width: 1400px) {
   .Item {
     padding: 0 10px;
-
     display: inline-block;
     margin: 3% 4.2%;
   }
@@ -897,7 +1048,6 @@ hr {
 @media (min-width: 1500px) {
   .Item {
     padding: 0 10px;
-
     display: inline-block;
     margin: 3% 4.8%;
   }
